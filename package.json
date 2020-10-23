@@ -1,29 +1,22 @@
 {
-  "name": "qtumjs-lib",
-  "version": "0.0.8",
-  "description": "An extend lib for bitcoinjs-lib, it supports two new network of qtum and qtum-testnet, and it can generate contract creating and sending transactions",
+  "name": "bcsjs-lib",
+  "version": "0.0.1",
+  "description": "This is an extend lib for bitcoinjs-lib. It extends the network type of bitcoinjs-lib. It also provides an useful lib to help you building BCSChain transactions.",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qtumproject/qtumjs-lib.git"
+    "url": "git+https://github.com/cryptofugu/bcsjs-lib.git"
   },
   "keywords": [
-    "qtum",
-    "qtumjs",
+    "bcschain",
+    "bcsjs",
     "smart contract",
     "bitcoin"
   ],
-  "author": "Qtum Weiyu",
+  "author": "@cryptofugu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qtumproject/qtumjs-lib/issues"
+    "url": "https://github.com/cryptofugu/bcsjs-lib/issues"
   },
-  "homepage": "https://github.com/qtumproject/qtumjs-lib#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "bignumber.js": "^4.1.0",
-    "bitcoinjs-lib": "^3.3.2",
-    "qtum-opcodes": "^1.0.0",
-    "safe-buffer": "^5.1.1"
-  }
+  "homepage": "https://github.com/cryptofugu/bcsjs-lib#readme"
 }
