@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/cryptofugu/bcsjs-lib/issues"
   },
-  "homepage": "https://github.com/cryptofugu/bcsjs-lib#readme"
+  "homepage": "https://github.com/cryptofugu/bcsjs-lib#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "bcs-opcodes": "https://github.com/cryptofugu/bcs-opcodes.git#master",
+    "safe-buffer": "^5.1.1"
+  }
 }
